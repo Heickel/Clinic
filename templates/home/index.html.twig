@@ -1,0 +1,66 @@
+{% extends 'base.html.twig' %}
+
+{% block nav %}{% endblock %}
+
+{%block content %}
+<main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Dashboard</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Dashboard</li>
+                        </ol>
+                        <div class="row">
+                            
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Liste des médecins
+                            </div>
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Nom</th>
+                                            <th>Specialité</th>
+                                            <th>Location</th>
+                                            <th>Travail depuis le </th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Nom</th>
+                                            <th>Specialité</th>
+                                            <th>Location</th>
+                                            <th>Travail depuis le</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tiger Nixon</td>
+                                            <td>Gynécoloque</td>
+                                            <td>Tunis</td>
+                                            <td>2011/04/25</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Garrett Winters</td>
+                                            <td>Oncologue</td>
+                                            <td>Tunis</td>
+                                            <td>2011/07/25</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ashton Cox</td>
+                                            <td>Cardiologue</td>
+                                            <td>Sousse</td>
+                                            <td>2009/01/12</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+{% endblock %}
